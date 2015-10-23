@@ -1,0 +1,32 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"AlignTab",
+		"Better CoffeeScript",
+		"CTags",
+		"Elixir",
+		"ElixirSublime",
+		"Git",
+		"Handlebars",
+		"Material Color Scheme",
+		"Numix Theme",
+		"Package Control",
+		"Pretty JSON",
+		"Rails Developer Snippets",
+		"RailsGoToSpec",
+		"RSpec",
+		"Sass",
+		"SublimeERB",
+		"SublimeLinter",
+		"SublimeLinter-coffee",
+		"SublimeLinter-ruby",
+		"Theme - Afterglow",
+		"Theme - Aprosopo",
+		"TrailingSpaces"
+	]
+}

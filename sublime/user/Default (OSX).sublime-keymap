@@ -1,0 +1,24 @@
+[
+  { "keys": ["ctrl+shift+r"],"command": "reveal_in_side_bar" },
+  { "keys": ["ctrl+shift+."], "command": "erb" },
+  {"keys": ["super+shift+a", "super+shift+c"],
+   "command": "align_tab",
+   "args" : {"user_input" : ":/f"}
+  },
+  {"keys": ["super+shift+a", "super+shift+a"],
+   "command": "align_tab",
+   "args" : {"user_input" :  "\\s*/l1l0"}
+  },
+  {"keys": ["super+shift+a", "super+shift+r"],
+   "command": "align_tab",
+   "args" : {"user_input" :  "=>/f"}
+  },
+  {"keys": ["super+shift+a", "super+shift+="],
+   "command": "align_tab",
+   "args" : {"user_input" :  "=/f"}
+  },
+  { "keys": ["super+shift+s", "super+shift+a"],
+    "command": "sort_lines",
+    "args": {"case_sensitive": false}
+  }
+]
