@@ -14,21 +14,11 @@ alias rk="rake db:migrate db:test:prepare"
 alias also="&&"
 alias conflicts="git diff --name-only | uniq | xargs subl"
 alias ip="ifconfig | grep 192 | awk '{print $2}' | tee >(pbcopy)"
+
 function google() {
   search_terms=`echo $@`
   query=${search_terms// /+}
   open /Applications/Google\ Chrome.app/ https://google.com/search?q=$query
-}
-
-function open_ember_app {
-  cd $1
-  ls | xargs -n 1 subl
-  cd `ls | grep rails`
-  rails s
-}
-
-function change_directory {
-  cd $1
 }
 
 [ `uname -s` != "Darwin" ] && return
