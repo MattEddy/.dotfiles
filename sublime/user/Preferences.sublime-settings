@@ -3,7 +3,7 @@
 	{
 		"user_input": "=/f"
 	},
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme",
 	"command": "ctags_for_ruby",
 	"create_window_at_startup": false,
 	"ensure_newline_at_eof_on_save": true,

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo 'After hook'
+echo 'Installing CTags'
+brew install ctags
