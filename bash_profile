@@ -4,11 +4,10 @@ alias node-jasmine-spec="jasmine-node spec/ --autotest --color --watch ./"
 source ~/.profile
 source ~/git-completion.bash
 
+alias work='~/Documents/Zesty/'
 alias ll='ls -al'
 alias gst='git status'
 alias gg="git status -sb"
-alias work='cd ~/Documents/Programming/Work'
-alias projects='cd ~/Documents/Programming/Projects'
 alias at="autotest -cf"
 alias rk="rake db:migrate db:test:prepare"
 alias also="&&"
