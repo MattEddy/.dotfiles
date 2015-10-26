@@ -2,9 +2,9 @@ export PATH=/usr/local/bin:$PATH:/usr/local/git/bin
 alias node-jasmine-spec="jasmine-node spec/ --autotest --color --watch ./"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*source /Users/Matt/.rvm/scripts/rvm
 source ~/.profile
-source ~/git-completion.bash
+source ~/.git-completion.bash
 
-alias work='~/Documents/Zesty/'
+alias work='cd ~/Documents/Zesty/'
 alias ll='ls -al'
 alias gst='git status'
 alias gg="git status -sb"
