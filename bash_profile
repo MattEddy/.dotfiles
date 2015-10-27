@@ -13,6 +13,7 @@ alias rk="rake db:migrate db:test:prepare"
 alias also="&&"
 alias conflicts="git diff --name-only | uniq | xargs subl"
 alias ip="ifconfig | grep 192 | awk '{print $2}' | tee >(pbcopy)"
+alias gitx='open -a GitX .'
 
 function google() {
   search_terms=`echo $@`
