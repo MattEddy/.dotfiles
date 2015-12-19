@@ -15,14 +15,19 @@
 	],
 	"folder_exclude_patterns":
 	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
 		"tmp/*",
-		".git"
+		"dist",
+		"build/*"
 	],
 	"font_options":
 	[
 		"gray_antialias"
 	],
-	"font_size": 16,
+	"font_size": 11,
 	"ignored_packages":
 	[
 	],

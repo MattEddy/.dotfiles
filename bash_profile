@@ -14,7 +14,8 @@ alias also="&&"
 alias conflicts="git diff --name-only | uniq | xargs subl"
 alias ip="ifconfig | grep 192 | awk '{print $2}' | tee >(pbcopy)"
 alias gitx='open -a GitX .'
-
+alias fix-jscs='jscs app tests --fix'
+alias explode_and_build='rm -rf node_modules bower_components dist tmp && npm cache clean && bower cache clean && npm install && bower install'
 function google() {
   search_terms=`echo $@`
   query=${search_terms// /+}

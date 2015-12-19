@@ -6,6 +6,10 @@ db/*.sqlite3
 log/*.log
 rerun.txt
 tags
+.tags
+.tags_sorted_by_file
 !tags/
 tmp/**/*
 !tmp/cache/.keep
+.vagrant
+.sql
