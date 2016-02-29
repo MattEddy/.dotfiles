@@ -3,3 +3,6 @@
 echo 'After hook'
 echo 'Installing CTags'
 brew install ctags
+
+echo 'Install atom packages'
+apm install atom-material-ui

@@ -1,5 +1,3 @@
 #!/bin/bash
 
 echo 'Before hook'
-brew tap caskroom/versions
-brew cask install sublime-text3
