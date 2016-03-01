@@ -6,3 +6,5 @@ brew install ctags
 
 echo 'Install atom packages'
 apm install atom-material-ui
+apm install atom-ctags
+apm install rails-rspec
