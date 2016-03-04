@@ -8,3 +8,4 @@ echo 'Install atom packages'
 apm install atom-material-ui
 apm install atom-ctags
 apm install rails-rspec
+apm install rails-open-spec
