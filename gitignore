@@ -6,7 +6,7 @@ db/*.sqlite3
 log/*.log
 rerun.txt
 tags
-tags1
+.tags1
 **/.tags
 .tags_sorted_by_file
 !tags/
