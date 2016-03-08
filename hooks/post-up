@@ -9,3 +9,4 @@ apm install atom-material-ui
 apm install atom-ctags
 apm install rails-rspec
 apm install rails-open-spec
+apm install vim-mode
