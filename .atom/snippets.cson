@@ -1,0 +1,4 @@
+'.source.ruby':
+  'lollipop':
+    'prefix': ':lol'
+    'body': ':lollipop:'

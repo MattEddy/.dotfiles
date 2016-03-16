@@ -10,6 +10,7 @@ apm install atom-ctags
 apm install rails-rspec
 apm install rails-open-spec
 apm install vim-mode
+apm install zen
 
 echo 'Speeding up default cursor speed'
 defaults write NSGlobalDomain KeyRepeat -int 0
