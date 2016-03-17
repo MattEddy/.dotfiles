@@ -1,3 +1,4 @@
-'atom-text-editor':
-  'ctrl-left': window:focus-previous-pane
-  'ctrl-right': window:focus-next-pane
+'atom-workspace':
+  'ctrl-shift-cmd-left': 'window:focus-previous-pane'
+  'ctrl-shift-cmd-right': 'window:focus-next-pane'
+  'ctrl-shift-cmd-d': 'pane:split-left'

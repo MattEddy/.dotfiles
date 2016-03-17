@@ -5,3 +5,5 @@
   'node_modules'
   '.tags'
 ]
+'linter-rubocop':
+  'executablePath': '/Users/MattEddy/.rvm/gems/ruby-2.2.3/bin/rubocop'

@@ -11,6 +11,14 @@ apm install rails-rspec
 apm install rails-open-spec
 apm install vim-mode
 apm install zen
+apm install editor-stats
+
+echo 'Moving atom config'
+cp -r .dotfiles/.atom ./
+
 
 echo 'Speeding up default cursor speed'
 defaults write NSGlobalDomain KeyRepeat -int 0
+
+echo 'Speed up full screen animation'
+defaults write -g NSWindowResizeTime -float 0.003
