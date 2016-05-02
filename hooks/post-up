@@ -20,5 +20,8 @@ cp -r .dotfiles/.atom ./
 echo 'Speeding up default cursor speed'
 defaults write NSGlobalDomain KeyRepeat -int 0
 
-echo 'Speed up full screen animation'
+echo 'Speeding up full screen animation'
 defaults write -g NSWindowResizeTime -float 0.003
+
+echo 'Make mission control animation instand'
+defaults write com.apple.dock expose-animation-duration -float 0
