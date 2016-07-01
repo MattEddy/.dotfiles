@@ -1,7 +1,7 @@
 'atom-workspace':
   'ctrl-shift-cmd-left': 'window:focus-previous-pane'
   'ctrl-shift-cmd-right': 'window:focus-next-pane'
-  'ctrl-shift-cmd-d': 'pane:split-left'
+  'ctrl-shift-cmd-d': 'pane:split-left-and-copy-active-item'
 
 'atom-text-editor':
   'alt-up': 'expand-region:expand'

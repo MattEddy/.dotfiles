@@ -4,7 +4,6 @@ alias node-jasmine-spec="jasmine-node spec/ --autotest --color --watch ./"
 source ~/.profile
 source ~/.git-completion.bash
 
-alias work='cd ~/Documents/Zesty/'
 alias ll='ls -al'
 alias gst='git status'
 alias gg="git status -sb"
@@ -21,31 +20,14 @@ function google() {
   query=${search_terms// /+}
   open /Applications/Google\ Chrome.app/ https://google.com/search?q=$query
 }
+function work() {
+  cd ~/Documents/Zesty/$(find ~/Documents/Zesty -type d -maxdepth 2 -depth 1 | sed 's/\/Users\/MattEddy\/Documents\/Zesty\///' | fzf -1 -q "$1")
+}
+
+function projects() {
+  cd ~/Documents/Zesty/$(find ~/Documents/projects -type d -maxdepth 2 -depth 1 | sed 's/\/Users\/MattEddy\/Documents\/projects\///' | fzf -1 -q "$1")
+}
 
 [ `uname -s` != "Darwin" ] && return
 
-function tab () {
-    local cmd=""
-    local cdto="$PWD"
-    local args="$@"
 
-    if [ -d "$1" ]; then
-        cdto=`cd "$1"; pwd`
-        args="${@:2}"
-    fi
-
-    if [ -n "$args" ]; then
-        cmd="; $args"
-    fi
-
-    osascript &>/dev/null <<EOF
-        tell application "iTerm"
-            tell current terminal
-                launch session "Default Session"
-                tell the last session
-                    write text "cd \"$cdto\"$cmd"
-                end tell
-            end tell
-        end tell
-EOF
-}
